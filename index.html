@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Button</title>
+  <title>Switch Mode</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <button>Switch</button>
+<body class="light-mode">
+
+  <label class="switch">
+    <input type="checkbox" id="mode-toggle" checked>
+    <span class="slider"></span>
+  </label>
+
+  <script src="script.js"></script>
 </body>
 </html>
